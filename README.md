@@ -11,6 +11,8 @@ We used the Seurat to normalize and scale the count transcriptome data. We exclu
 # Using Python script
 An example of how to utilize script for classification and batch correction:
 
+**Requirements:** pyTorch>=1.1.0 umap-learn>=0.3.8 universal-divergence>=0.2.0
+
 python main.py 
 
               --dataset_path path/to/input/files
