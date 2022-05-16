@@ -26,4 +26,7 @@ python main.py
 
               --gpu_id GPU id to run
                            
-The dataset_path must contain the four preprocessed CSV files as in dataset/processed_data folder. After running the model, there will be three output files in result_path: final_model_*.ckpt which has the trained model parameters (for example: weights and biases) and it can be loaded for label prediction. pred_labels_*.csv which contains the predicted cell label and corresponding confidence score (softmax probability). embeddings_*.csv which contains the batch-corrected low-dimensional embeddings (default is 256) for visualization.               
+The dataset_path must contain the four preprocessed CSV files as in dataset/processed_data folder. After running the model, there will be three output files in result_path: final_model_*.ckpt which has the trained model parameters (for example: weights and biases) and it can be loaded for label prediction. pred_labels_*.csv which contains the predicted cell label and corresponding confidence score (softmax probability). embeddings_*.csv which contains the batch-corrected low-dimensional embeddings (default is 256) for visualization.
+
+# Results
+![image](https://user-images.githubusercontent.com/35179314/168669122-1e16b110-1c79-481a-a660-bdf1c489913e.png)
