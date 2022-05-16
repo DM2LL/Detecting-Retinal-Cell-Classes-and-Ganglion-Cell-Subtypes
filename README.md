@@ -28,4 +28,5 @@ The dataset_path must contain the four preprocessed CSV files as in dataset/proc
 After running the model, there will be three output files in result_path: final_model_*.ckpt which has the trained model parameters (for example: weights and biases) and it can be loaded for label prediction. pred_labels_*.csv which contains the predicted cell label and corresponding confidence score (softmax probability). embeddings_*.csv which contains the batch-corrected low-dimensional embeddings (default is 256) for visualization.
 
 # Results
+Confusion matrices for different pairs of batches in the first dataset (target domain). Panels A to F represent the confusion matrices of the model when batch B2 is selected as the target domain and batches B1, B3, B4, B5, B6, and B7 are selected as the source domains, respectively. Panels G and H show the confusion matrices of the model when the source domain includes 70% of all data and the target comprises 30% of all data based on the first and second datasets, respectively. 
 ![image](https://user-images.githubusercontent.com/35179314/168669122-1e16b110-1c79-481a-a660-bdf1c489913e.png)
