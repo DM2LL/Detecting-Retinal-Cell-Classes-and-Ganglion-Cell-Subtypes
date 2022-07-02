@@ -1,3 +1,5 @@
+# In rare occasions, the code may not converge properly and generate low accuracy at the first iterations.
+
 import argparse
 import numpy as np
 import pandas as pd
